@@ -1,5 +1,7 @@
 # Local .terraform directories
 **/.terraform/*
+**/.infracost/*
+#**/.gitignore/*
 
 # .tfstate files
 *.tfstate
