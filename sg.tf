@@ -1,6 +1,6 @@
 
 resource "aws_security_group" "sg1" {
-    name = "JenkinsPipeline-sg"
+    name = "Jenkins_Pipeline-sg"
     description = "Allow ssh and httpd"
     vpc_id = aws_vpc.vpc1.id
     
